@@ -45,6 +45,8 @@ body {
     text-align: center;
     max-width: 264px;
     margin: 0   auto;
+
+   
 }
 .card__title{
     margin-bottom: 1rem;
@@ -54,7 +56,7 @@ body {
 }
 
 .card__text{
-margin-bottom: 1rem;
+margin-bottom: 3rem;
 }
 .card__stat-number{
     margin-bottom: .4rem;
@@ -69,7 +71,7 @@ margin-bottom: 1rem;
     .container{
         display: flex;
         max-width: 1020px;
-        margin: 0 auto;
+        margin: 0 autoŸ;
        
         
     }
@@ -81,16 +83,31 @@ margin-bottom: 1rem;
       
         
     }
+    .card__info{
+        max-width: 290px;
+        padding: 1rem;
+        text-align: left;
+        padding-top: 2.5rem;
+    }
    .card__stats{
     display: flex;
-    justify-content: center;
-    align-content: space-between;
+    justify-content:space-between;
+  
+
    }
+   .card__text{
+    max-width: 235px;
+    font-size:0.7rem;
+   
+   }
+   
    .card__stat-number{
     text-align: left;
+    text-transform: uppercase;
 
    }
    .card__stat-text{
+    
     font-size: 0.7rem;
     margin-right: 0.5rem;
    }
